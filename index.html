@@ -7,8 +7,8 @@
     <title>Get to know everyhting about being a Veterinarian</title>
     <link  rel="icon"   href="img/huella.ico" type="image/icon">
     <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="styles.css">
     <meta name="description" content="The road to becoming a veterinarian is paved with a love of animals, an interest in science, and a commitment to education.">
-    <script src="codigo.js"></script>
     <script src="https://kit.fontawesome.com/a5cb44e5e5.js" crossorigin="anonymous"></script>
 
     <style>
@@ -86,7 +86,7 @@
     </main>
 
     <!-- Scroll to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top" class="z-40 focus:outline-none fixed bottom-4 right-4 w-16 h-16 rounded-full bg-black"><i class="fas fa-arrow-up text-white text-lg"></i></button>
+    <button id="btn" title="Go to top" class="z-40 focus:outline-none fixed bottom-4 right-4 w-12 h-12 rounded-md bg-black btn"><i class="fas fa-arrow-up text-white text-lg hidden"></i></button>
 
     <!-- Services -->
     <div id="Services" class="my-8 flex items-center justify-center relative z-0 flex-wrap">
@@ -223,20 +223,20 @@
     </div>
 
     <!-- Pets Quote -->
-    <div class="flex flex-wrap items-center justify-center mb-4 mt-8 pt-8 bg-transparent">
-        <div class="w-72 h-96 flex items-center justify-center mb-6 mr-2 relative rounded-lg text-center hover:shadow-2xl shadow-lg" style="background: #222831;">
+    <div class="flex flex-wrap items-center justify-center mb-5 mt-8 pt-8 bg-transparent">
+        <div class="w-72 h-96 flex items-center justify-center my-3 mx-3 aumento relative rounded-lg text-center hover:shadow-2xl shadow-lg" style="background: #222831;">
             <img class="rounded-full h-32 w-32 absolute top-0 -top-10 shadow-lg hover:shadow-2xl" src="img/cats-2.jpg" alt="">
             <p class="pb-6 px-6 pt-20 text-white font-semibold text-xl">“The unique challenge of veterinary medicine is that there is never anything that happens according to plan.”</p>
         </div>
-        <div class="w-72 h-96 flex items-center justify-center mb-6 mr-2 relative rounded-lg text-center hover:shadow-2xl shadow-lg" style="background: #393e46;">
+        <div class="w-72 h-96 flex items-center justify-center my-3 mx-3 aumento relative rounded-lg text-center hover:shadow-2xl shadow-lg" style="background: #393e46;">
             <img class="rounded-full h-32 w-32 absolute top-0 -top-10 shadow-lg hover:shadow-2xl" src="img/yorkshire-bg.jpg" alt="">
             <p class="pb-6 px-6 pt-20 text-white font-semibold text-xl">"We counsel both pet owners and veterinary professionals on how best to treat the poisoned pet or patient."</p>
         </div>
-        <div class="w-72 h-96 flex items-center justify-center mb-6 mr-2 relative rounded-lg text-center hover:shadow-2xl shadow-lg" style="background: #393e46;">
+        <div class="w-72 h-96 flex items-center justify-center my-3 mx-3 aumento relative rounded-lg text-center hover:shadow-2xl shadow-lg" style="background: #393e46;">
             <img class="rounded-full h-32 w-32 absolute top-0 -top-10 shadow-lg hover:shadow-2xl" src="img/cat-love.jpg" alt="">
             <p class="pb-6 px-6 pt-20 text-white font-semibold text-xl">"Our goal is to preserve quality of life and alleviate pain while making sure that we work with our pet owners as best we can to help them care for their pets."</p>
         </div>
-        <div class="w-72 h-96 flex items-center justify-center mb-6 mr-2 relative rounded-lg text-center hover:shadow-2xl shadow-lg" style="background: #222831;">
+        <div class="w-72 h-96 flex items-center justify-center my-3 mx-3 aumento relative rounded-lg text-center hover:shadow-2xl shadow-lg" style="background: #222831;">
             <img class="rounded-full h-32 w-32 absolute top-0 -top-10 shadow-lg hover:shadow-2xl" src="img/puppy.jpg" alt="">
             <p class="pb-6 px-6 pt-20 text-white font-semibold text-xl">"Just like human medicine, where there are specialties in internal medicine, surgery, dermatology, and emergency, veterinary medicine has also started to move that way."</p>
         </div>
@@ -256,14 +256,12 @@
 
 	<footer class="bg-black text-white px-20 py-16">
 		<div class="text-center text-xl">
-			<a href="#"><i class="fa fa-facebook-official pr-1"></i></a>
 			<a href="https://www.instagram.com/simon_moreno_/" target="_blank"><i class="fa fa-instagram pr-1"></i></a>
 			<a href="https://github.com/Simon-M20/Simon-M20" target="_blank"><i class="fab fa-github pr-1"></i></a>
-			<a href="mailto:saimonm0504@gmail.com" target="_blank"><i class="fas fa-envelope pr-1"></i></a>
 			<p class="italic text-base">Powered by <span class="hover:underline" style="color: #fbac14;">Simón Moreno</span></p>
 		</div>
+        <p class="items-center justify-center px-4 mt-4 bg-black text-white flex flex-wrap text-center">Copyright ©  2021 · Simón Moreno · Web Design with Tailwind CSS ·</p>
 	</footer>
-	<p class="items-center justify-center px-4 pb-4 bg-black text-white flex flex-wrap text-center">Copyright ©  2021 · Simón Moreno · Web Design with Tailwind CSS ·</p>
 
     
      
@@ -279,7 +277,7 @@
     
   
 
-    
+    <script src="codigo.js"></script>
 </body>
 
 </html>

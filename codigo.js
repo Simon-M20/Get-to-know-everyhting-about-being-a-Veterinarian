@@ -1,16 +1,22 @@
-const mybutton = document.getElementById("myBtn");
+const scrollBtn = document.querySelector(".btn")
+// console.log(scrollBtn);
 
-// window.addEventListener("scroll", () => {
-//   if (window.pageYOffset > 20) {
-//     mybutton.classList.add("block");
-//   } else {
-//     mybutton.classList.remove("block");
-//   }
+window.addEventListener("scroll", e => {
+  let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-// });
+  if (scrollTop > 450) {
+    scrollBtn.classList.remove("hidden");
+  } else {
+    scrollBtn.classList.add("hidden");
+  }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+  document.addEventListener("click", e => {
+    if (e.target.matches(".btn") || e.target.matches(".btn *")) {
+      window.scroll({
+        behavior: "smooth",
+        top: 0
+      })
+    }
+  })
+})
+
