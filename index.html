@@ -70,10 +70,10 @@
 
     <!-- Welcome! -->
     <main class="flex items-center lg:flex-nowrap flex-wrap">
-        <div class="relative lg:w-6/12 md:w-7/12 flex h-auto items-center justify-center py-6 px-20 md:px-2 lg:pl-20 lg:ml-16 z-0 flex flex-wrap">
-            <img src="img/perro-1.png" alt="vet-dog">
+        <div class="relative lg:w-6/12 md:w-7/12 flex h-auto items-center justify-center md:py-32 py-16 px-20 md:px-2 lg:pl-20 lg:ml-16 z-0 flex flex-wrap">
+            <img class="lg:w-1/2 w-4/5" src="img/perro-1.png" alt="vet-dog">/
         </div>
-        <div class="lg:w-1/2 md:w-3/5 md:absolute w-full bg-transparent flex items-center justify-center z-40 -right-0 lg:absolute container shadow-xl">
+        <div class="lg:w-1/2 md:w-3/5 md:absolute w-full bg-transparent flex items-center justify-center z-40 -right-0 container">
             <div class="bg-gray-100 md:mt-8 pt-16 pb-12 px-6 rounded-md w-full mx-4 shadow-lg">
                 <h2 class="text-4xl mb-10 uppercase font-bold text-center lg:text-left md:text-left">Veterinarian</h2>
                 <p class="pb-2">Bark! and welcome to a massive source of free stuff for Veterinarians. A veterinarian is a medical professional who protects the health and well-being of both animals and people. They diagnose and control animal diseases and treat sick and injured animals.</p> 
@@ -89,9 +89,9 @@
     <button id="btn" title="Go to top" class="z-40 focus:outline-none fixed bottom-4 right-4 w-12 h-12 rounded-md bg-black btn"><i class="fas fa-arrow-up text-white text-lg hidden"></i></button>
 
     <!-- Services -->
-    <div id="Services" class="my-8 flex items-center justify-center relative z-0 flex-wrap">
+    <div id="Services" class="flex items-center justify-center relative z-0 flex-wrap md:pt-0 pt-16">
         <img class="z-0 mod w-full h-auto" src="img/pets-cats-dogs.jpg" alt="Pets-doctor">
-        <div class="lg:w-full md:w-full h-auto z-40 absolute text-white rounded-md text-center lg:py-4 md:py-4 py-0" style="box-shadow: 0 0 0 1rem 0 rgba(0, 0, 0, .2); background-color: rgba(100, 46, 228, 0); backdrop-filter: blur(7px);">
+        <div class="lg:w-full md:w-full h-auto z-40 absolute text-white rounded-md text-center md:py-12 py-4" style="box-shadow: 0 0 0 1rem 0 rgba(0, 0, 0, .2); background-color: rgba(100, 46, 228, 0); backdrop-filter: blur(7px);">
             <div class="flex items-center justify-center text-center lg:text-4xl md:text-2xl text-xl uppercase font-bold flex-wrap container m-auto">
                 <div class="lg:w-1/4 w-1/2 flex items-center justify-center lg:flex-col md:flex-col lg:p-0 md:p-0 py-3 hover:opacity-75">
                     <img class="lg:pb-4 lg:w-auto lg:h-auto w-7 h-7 md:w-auto md:h-auto lg:m-0 md:m-0 mr-3 hover:opacity-75" src="https://img.icons8.com/pastel-glyph/50/000000/pet-bowl--v2.png"/>
@@ -111,26 +111,25 @@
                 </div>
             </div>
         </div>
-     
     </div>
 
     <!-- Food - Health - Equipment - Passion -->
-    <div class="flex items-center my-8 relative flex-wrap justify-end lg:justify-center md:justify-center bg-yellow-100 py-12 py-16">
+    <div class="flex items-center relative flex-wrap justify-end lg:justify-center md:justify-center bg-yellow-100 py-32">
         <img class="w-auto h-auto px-2 rounded-3xl" src="img/cat-vet.jpg" alt="Cat-with-a-vet">
-        <div class="lg:absolute md:absolute relative w-full bg-transparent shadow-2xl rounded-3xl py-4">
-            <div id="Food" class="lg:absolute md:absolute lg:left-0 md:left-0 ml-4 lg:top-8 md:top-8 lg:w-2/6 md:w-2/5 text-left w-5/6 py-6 pr-6 pl-4 mb-3 bg-gradient-to-l from-transparent to-white rounded-lg shadow-lg">
+        <div class="md:absolute relative w-full bg-transparent rounded-3xl py-4">
+            <div id="Food" class="md:absolute lg:left-0 md:left-0 ml-4 lg:top-8 md:top-8 lg:w-2/6 md:w-2/5 text-left w-5/6 py-6 pr-6 pl-4 mb-3 bg-gradient-to-l from-transparent to-white rounded-lg shadow-lg">
                 <h3 class="pb-3 text-center font-bold text-xl uppercase">Food</h3>
                 <p>Veterinary therapeutic diets are used to manage a variety of health related issues and diseases in cats and dogs. They are available through veterinarians and made to be fed under their supervision because of one or more variations in nutrient content from typical balanced diets.</p>
             </div>
-            <div id="Health" class="lg:absolute md:absolute lg:left-0 md:left-0 lg:bottom-0 md:bottom-0 ml-4 lg:w-2/6 md:w-2/5 w-5/6 text-left bg-gradient-to-l from-transparent to-white py-6 pr-6 pl-4 shadow-lg rounded-lg my-4">
+            <div id="Health" class="md:absolute lg:left-0 md:left-0 lg:bottom-0 md:bottom-0 ml-4 lg:w-2/6 md:w-2/5 w-5/6 text-left bg-gradient-to-l from-transparent to-white py-6 pr-6 pl-4 shadow-lg rounded-lg my-4">
                 <h3 class="pb-3 font-bold text-center text-xl uppercase">Health</h3>
                 <p>When health problems arise, veterinarians diagnose the problem and treat the animal. Treatments may involve a number of different procedures including emergency lifesaving techniques, prescribing medication, setting fractures, birthing, performing surgery, etc.</p>
             </div>
-            <div id="Equipment" class="lg:absolute md:absolute lg:top-8 md:top-8 lg:right-0 md:right-0 md:mr-4 md:ml-0 ml-4 lg:w-2/6 md:w-2/5 w-5/6 md:text-right text-left bg-gradient-to-l md:bg-gradient-to-r from-transparent to-white shadow-lg py-6 pr-4 pl-6 rounded-lg my-4">
+            <div id="Equipment" class="md:absolute lg:top-8 md:top-8 lg:right-0 md:right-0 md:mr-4 md:ml-0 ml-4 lg:w-2/6 md:w-2/5 w-5/6 md:text-right text-left bg-gradient-to-l md:bg-gradient-to-r from-transparent to-white shadow-lg py-6 pr-4 pl-6 rounded-lg my-4">
                 <h3 class="pb-3 text-xl text-center font-bold uppercase">Equipment</h3>
                 <p>The general practice veterinarian spends one-third to one-half of his or her time in surgery. Animal neutering operations are done in most veterinarians' offices. Many veterinarians also perform orthopedic procedures, bone setting, dentistry, and trauma surgery.</p>
             </div>
-            <div id="Passion" class="lg:absolute md:absolute lg:bottom-0 lg:right-0 md:bottom-0 md:right-0 md:mr-4 md:ml-0 ml-4 lg:w-2/6 md:w-2/5 w-5/6 md:text-right text-left bg-gradient-to-l md:bg-gradient-to-r from-transparent to-white py-6 pl-6 pr-4 rounded-lg mt-4 shadow-lg">
+            <div id="Passion" class="md:absolute lg:bottom-0 lg:right-0 md:bottom-0 md:right-0 md:mr-4 md:ml-0 ml-4 lg:w-2/6 md:w-2/5 w-5/6 md:text-right text-left bg-gradient-to-l md:bg-gradient-to-r from-transparent to-white py-6 pl-6 pr-4 rounded-lg mt-4 shadow-lg">
                 <h3 class="pb-3 text-xl text-center font-bold uppercase">Passion</h3>
                 <p>The most important skill is a passion for animals and a commitment to the health and well-being of animals. Veterinarians must also have a natural curiosity about other species, such as domestic farm animals or exotic species that live in the wild.</p>
             </div>
@@ -139,24 +138,24 @@
     </div>
 
     <!-- What we do -->
-    <div id="What_we_do" class="flex lg:flex-nowrap flex-wrap my-8 items-center justify-center bg-gray-100 py-12 lg:px-12 lg:px-6 px-2">
-         <div class="lg:w-1/2 w-full text-justify bg-white shadow-2xl rounded-2xl p-6">
+    <div id="What_we_do" class="flex lg:flex-nowrap flex-wrap md:py-32 items-center justify-center py-16 lg:px-12 px-6">
+         <div class="lg:w-1/2 w-full text-justify bg-white shadow-xl rounded-lg p-6">
             <h2 class="text-3xl text-center py-6 font-bold uppercase">What we do...</h2>
             <p class="px-2 py-1">Along with a love for animals, veterinarians need to have many other skills to help them efficiently do their job. Here are some skills all veterinarians should have. To be successful as a veterinarian, you need specific qualities you won't learn in school. These are called soft skills.</p>
             <p class="px-2 py-1">A veterinarian in research looks for better ways to prevent and solve animal and human health problems. Many problems, such as cancer and heart disease, are studied through the use of laboratory animals, which are carefully bred, raised, and maintained under the supervision of veterinarians.</p>
             <p class="px-2 pt-1 pb-2">In addition to being able to diagnose and treat the animals, veterinarians also communicate effectively with the animals' owners. This often includes explaining diagnoses and treatments in down-to-earth, common language.</p>
         </div>
         <div class="lg:w-2/3 w-full mt-2 relative">
-            <img class="rounded-3xl w-auto h-auto" src="img/cats.jpg" alt="cat-in-a-cage">
+            <img class="rounded-xl w-auto h-auto" src="img/cats.jpg" alt="cat-in-a-cage">
         </div>
        
     </div>
 
     <!-- Veterinarian Duties and Responsabilities || Veterinarian Skills & Competencies -->
-    <div id="Learn_more" class="flex flex-wrap my-8">
-        <div class="lg:w-1/2 w-full bg-black h-full text-white py-16 lg:px-12 pl-6 pr-12 font-thin rounded-br-2xl rounded-tl-2xl">
+    <div id="Learn_more" class="flex flex-wrap md:py-32 py-16">
+        <div class="lg:w-1/2 w-full bg-black h-full text-white py-16 lg:px-12 pl-6 pr-12 font-thin rounded-br-md rounded-tl-md">
             <h3 class="text-center text-2xl pb-12 font-thin">Veterinarian Skills & Competencies</h3>
-            <ul class="list-inside">
+            <ul class="list-inside text-lg">
                 <li class="px-2 py-1"><code class="pr-2">&#x1f43e</code>Compassion.</li>
                
                 <li class="px-2 py-1"><code class="pr-2">&#x1f43e</code>Critical thinking.</li>
@@ -178,9 +177,9 @@
             </ul>
          
         </div>
-        <div class="lg:w-1/2 w-full h-full py-16 lg:px-12 pl-6 pr-12 font-semibold rounded-tr-2xl rounded-bl-2xl" style="background: #fbac14;">
-            <h3 class="text-center text-2xl pb-12 font-semibold">Veterinarian Duties & Responsabilities</h3>
-            <ul class="list-inside">
+        <div class="lg:w-1/2 w-full h-full py-16 lg:px-12 pl-6 pr-12 rounded-tr-md rounded-bl-md" style="background: #fbac14;">
+            <h3 class="text-center text-2xl pb-12 font-thin">Veterinarian Duties & Responsabilities</h3>
+            <ul class="list-inside text-lg">
                 <li class="px-2 py-1"><code class="pr-2">&#x1f43e</code>Diagnoses animal health problems.
                 </li>
                 <li class="px-2 py-1"><code class="pr-2">&#x1f43e</code>Vaccinates against diseases, such as distemper and rabies.
@@ -206,7 +205,7 @@
     </div> 
 
     <!-- How to become a Veterinarian -->
-    <div class="flex items-center justify-center flex-wrap">
+    <div class="flex items-center justify-center flex-wrap md:pb-32 pb-4">
         <div class="lg:w-1/2 w-full">
             <img class="w-full h-auto" src="img/jaja.png" alt="Cat-frame">
         </div>
@@ -223,7 +222,7 @@
     </div>
 
     <!-- Pets Quote -->
-    <div class="flex flex-wrap items-center justify-center mb-5 mt-8 pt-8 bg-transparent">
+    <div class="flex flex-wrap items-center justify-center bg-transparent md:my-32 my-16">
         <div class="w-72 h-96 flex items-center justify-center my-3 mx-3 aumento relative rounded-lg text-center hover:shadow-2xl shadow-lg" style="background: #222831;">
             <img class="rounded-full h-32 w-32 absolute top-0 -top-10 shadow-lg hover:shadow-2xl" src="img/cats-2.jpg" alt="">
             <p class="pb-6 px-6 pt-20 text-white font-semibold text-xl">“The unique challenge of veterinary medicine is that there is never anything that happens according to plan.”</p>
@@ -245,14 +244,14 @@
 
 
     <!-- Footer -->
-    <div class="bg-white pb-4">
-		<div class="flex items-center justify-center w-full">
-			<img src="img/pet-lover.jpg" alt="Dog-with-a-tie" class="lg:w-4/5 h-auto container m-auto rounded-md">
-            <!-- <p class="pb-2 absolute">Having a passion for animals is a fantastic reason to pursue a career in veterinary medicine. On top of that, it’s a growing field with plenty of opportunity. Those with a background in the sciences and experience working with animals will have a strong foundation. Here's how to launch a career in veterinary medicine:
-            </p> -->
-		</div>
-			
-	</div>
+    <figure class="flex items-center justify-center relative w-full">
+		<img src="img/pet-lover.jpg" alt="Dog-with-a-tie" loading="lazy" class="w-full h-1/2">
+        <figcaption class="absolute md:w-1/3 w-1/2 right-10 md:right-40">
+            <p class="p-2 text-center leading-relaxed md:text-lg text-base">Having a passion for animals is a fantastic reason to pursue a career in veterinary medicine. On top of that, it’s a growing field with plenty of opportunity. Those with a background in the sciences and experience working with animals will have a strong foundation. Here's how to launch a career in veterinary medicine:
+            </p>
+        </figcaption>
+    </figure>
+	
 
 	<footer class="bg-black text-white px-20 py-16">
 		<div class="text-center text-xl">
